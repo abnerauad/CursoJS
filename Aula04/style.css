@@ -7,13 +7,29 @@ body {
 
 .container {
     position: fixed;
+    width: 555px;
+    height: 480px;
     background-color: rgba(0, 0, 0, 0.315);
     text-align: justify;
-    padding: 15px;
+    padding: 20px;
     border-radius: 15px;
-    box-align: center;
 }
 
 #video {
     border-radius: 10px;
+}
+
+.socialmedia {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.315);
+    text-align: justify;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 600px;
+}
+
+.icon{
+    margin: 5px;
 }
