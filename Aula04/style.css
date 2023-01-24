@@ -1,10 +1,19 @@
 body {
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(75, 27, 187);
     color: rgb(255, 255, 255);
     font: normal 16px Arial;
-    margin: 100px;
+    margin: 50px 500px 0px 50px;
 }
 
 .container {
-    background-color: black;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.315);
+    text-align: justify;
+    padding: 15px;
+    border-radius: 15px;
+    box-align: center;
+}
+
+#video {
+    border-radius: 10px;
 }
