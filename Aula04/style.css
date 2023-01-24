@@ -2,7 +2,7 @@ body {
     background-color: rgb(75, 27, 187);
     color: rgb(255, 255, 255);
     font: normal 16px Arial;
-    margin: 50px 500px 0px 50px;
+    margin: 20px;
 }
 
 .container {
@@ -19,10 +19,15 @@ body {
     border-radius: 10px;
 }
 
+#video:hover{
+    transform: scale(1.01,1.01);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.322);
+}
+
 .socialmedia {
     position: relative;
-    width: 200px;
-    height: 150px;
+    width: 205px;
+    height: 200px;
     background-color: rgba(0, 0, 0, 0.315);
     text-align: justify;
     padding: 20px;
@@ -31,5 +36,16 @@ body {
 }
 
 .icon{
-    margin: 5px;
+    position: relative;
+    display: inline-block;
+    opacity: 75%;
+    margin: 0px 45px 0px 0px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.icon:hover{
+    transform: scale(1.05,1.05);
+    opacity: 100%;
 }
