@@ -1,5 +1,10 @@
-body{
+body {
     background-color: rgb(65, 65, 65);
     color: rgb(255, 255, 255);
     font: normal 16px Arial;
+    margin: 100px;
+}
+
+.container {
+    background-color: black;
 }
