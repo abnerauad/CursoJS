@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(75, 27, 187);
+    background-color: rgb(36, 36, 36);
     color: rgb(255, 255, 255);
     font: normal 16px Arial;
     margin: 20px;
@@ -9,7 +9,7 @@ body {
     position: fixed;
     width: 555px;
     height: 480px;
-    background-color: rgba(0, 0, 0, 0.315);
+    background-color: rgba(255, 255, 255, 0.1);
     text-align: justify;
     padding: 20px;
     border-radius: 15px;
@@ -28,7 +28,7 @@ body {
     position: relative;
     width: 205px;
     height: 200px;
-    background-color: rgba(0, 0, 0, 0.315);
+    background-color: rgba(101, 1, 216, 0.1);
     text-align: justify;
     padding: 20px;
     border-radius: 15px;
