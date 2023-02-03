@@ -43,5 +43,23 @@
                 </svg>
             </a>
         </div>
+        <div id="idade">
+            <h1>IDADE</h1>
+            <label for="age">Qual a sua idade?</label>
+            <input type="number" name="age" id="age">
+            <input type="button" value="GO!" id="btn">
+            <p id="p">Resultado:</p>
+        </div>
+        <script>
+            var a = window.document.getElementById('age')
+            var p = window.document.getElementById('p')
+            var btn = window.document.getElementById('btn')
+
+            btn.addEventListener('click', btn)
+
+            function btn(a >= 18){
+                p.innerText(`Resultado: Você é ${res}`)    
+            }
+        </script>
     </body>
 </html>
