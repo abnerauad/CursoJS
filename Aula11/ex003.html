@@ -51,5 +51,17 @@
             <input type="button" value="GO!" id="btn">
             <p id="p">Resultado:</p>
         </div>
+        <script>
+            var a = window.document.getElementById('age')
+            var p = window.document.getElementById('p')
+
+            btn.addEventListener('click', btn)
+
+            if  btn(a >= 18) {
+                p.innerText(`Resultado: Você é Maior de Idade`)
+            } else {
+                p.innerText(`Resultado: Você é Menor de Idade`)
+            }
+        </script>
     </body>
 </html>

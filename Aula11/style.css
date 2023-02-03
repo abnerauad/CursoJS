@@ -69,7 +69,8 @@ body {
     width: 100%;
     height: 15px;
     margin: 10px 0 10px 0;
-    border-style: 2px solid rgb(255, 255, 255);
+    border-style: 2px none rgba(255, 255, 255, 0);
+    border-shadow
 }
 
 #btn{
