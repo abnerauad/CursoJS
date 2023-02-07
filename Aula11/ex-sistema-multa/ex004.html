@@ -4,16 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            position: absolute;
+            font: normal 14px Arial;
+            background-color: grey;
+        }
+
+        #box1{
+            background-color: rgba(0, 0, 0, 0.658);
+            color: antiquewhite;
+            width: auto;
+            height: auto;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+
+        }  
+        
+        #btn{
+            background-color: rgba(95, 95, 95, 0.438);
+            color: aliceblue;
+            font: normal 14px Arial;
+            width: auto;
+            height: 20px;
+            border: 1px solid;
+            border-radius: 3px;
+        }
+
+        #btn:hover{
+            background-color: aliceblue; 
+            color: grey;
+            border: none;   
+        }
+    </style>
     <title>DETRAN</title>
 </head>
 <body>
-    <h1>Sistema de Multas</h1>
-    Velocidade do carro: <input type="number" name="vel" id="vel"> Km/h
-    <input type="button" value="Verificar" onclick="clicar()">
-    <div id="res">
-
+    <div id="box1">
+        <h1>Sistema de Multas</h1>
+        Velocidade do carro: <input type="number" name="vel" id="vel"> Km/h
+        <input type="button" value="VERIFICAR" onclick="clicar()" id="btn">
+        <br>
+        <br>
+        <div id="res"></div>
     </div>
-
+    
     <script>
         function clicar() {
             var txtvel = window.document.getElementById('vel')
@@ -23,7 +59,7 @@
             res.innerHTML = `<p>Sua velocidade é de <strong>${vel} Km/h</strong></p>`
 
             if (vel > 80) {
-                res.innerHTML += '<strong>Você excedeu o limite de velocidade. MULTADO!</strong>'
+                res.innerHTML += '<p><strong>VOCÊ EXCEDEU O LIMITE DE VELOCIDADE. MULTADO!</strong></p>'
             }
 
             res.innerHTML += '<p>Digira sempre com cinto de segurança!</p>'     
