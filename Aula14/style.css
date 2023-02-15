@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(129, 129, 129);
+    color: rgb(255, 243, 243);
+    font: normal 16px Arial;
+
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    background-color: aliceblue;
+    color: black;
+    width: 500px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+#txtano{
+    width: 135px;
+    height: 20px;
+    background-color: rgb(175, 175, 175);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+}
+
+#btn{
+    background-color: rgb(83, 83, 83);
+    color: aliceblue;
+    font: normal 20px Arial;
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+#foto{
+    width: 495px;
+    height: auto;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+#res{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
