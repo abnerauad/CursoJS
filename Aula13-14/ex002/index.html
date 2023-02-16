@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(102, 173, 93);
+            color: aliceblue;
+            font: normal 16px Arial;
+        }
+        header{
+            text-align: center;
+        }
+        section{
+            background-color: aliceblue;
+            color: rgb(41, 41, 41);
+            width: 400px;
+            height: auto;
+            padding: 10px 20px;
+            border-radius: 15px;
+            margin: auto;
+        }
+
+        .td{
+            width: 70px;
+        }
+
+        #btn{
+            background-color: rgb(102, 173, 93);
+            color: aliceblue;
+            font: normal 18px Arial;
+            width: 100%;
+            height: 30px;
+            border: none;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        #btn:hover{
+            background-color: rgb(68, 126, 61);
+        }
+
+        footer{
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+    <title>Contador</title>
+</head>
+<body>
+    <header>
+        <h1>Contador de Números</h1>
+    </header>
+    <section>
+        <div>
+            <table>
+                <tr>
+                    <td class="td">Início:</td>
+                    <td class="td"><input type="number" name="ninicio" id="ninicio">
+                </tr>
+                <tr>
+                    <td class="td">Fim:</td>
+                    <td class="td"><input type="number" name="nfim" id="nfim"></td>
+                </tr>
+                <tr>
+                    <td class="td">Passo:</td>
+                    <td class="td"><input type="number" name="" id="npasso"></td>
+                </tr>
+            </table>
+            <input type="button" value="CONTAR" onclick="contador()" id="btn">
+        </div>
+        <div id='res'>
+            Contagem:
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Auad Ltda</p>
+    </footer>
+
+    <script>
+        function contador(){
+            var inc = document.querySelector('input#ninicio')
+            var fim = document.querySelector('input#nfim')
+            var pass = document.querySelector('input#npasso')
+            var res = document.querySelector('div#res')
+
+            while (inc <= fim){
+                res = inc.value + pass.value 
+                res.innnerText = `${res}`
+            }
+        }
+
+
+    </script>
+</body>
+</html>
